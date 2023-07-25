@@ -15,14 +15,14 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
-  threejs,
+  net,
+  shanbay,
+  zijin,
+  python,
+  uwa
 } from "../assets";
 
 export const navLinks = [
@@ -46,7 +46,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React Developer",
     icon: mobile,
   },
   {
@@ -97,8 +97,8 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: ".net",
+    icon: net,
   },
   {
     name: "git",
@@ -112,59 +112,54 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
+  {
+    name: "python",
+    icon:python
+  }
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Master of IT",
+    company_name:"UWA",
+    icon:uwa,
+    iconBg: "white",
+    date: "2020 - 2022",
+    points:[
+      "Software Engineering with Java", 
+      "Computational Thinking with Python", 
+      "Software Testing and Quality Assurance", 
+      "Open Source Tools and Scripting", 
+      "Data Warehousing", 
+      "Cloud Computing", 
+      "Agile Web Development", 
+      "Software Requirement and Design."
+    ]
+},
+  {
+    title: "Inten React.js Developer",
+    company_name: "Shanbay",
+    icon: shanbay,
+    iconBg: "black",
+    date: "Aug 2021 - Nov 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Accomplished requirements of the Product Manager and the Operation Manager like, updated the advertisement of course basing on the monthly process.",
+      "To support the data analyzers, took AB tests and tracked the customers' behavior by event tracking.",
+      "Explored the practicability of technique, like using the plugin of Webpack to import the elements or code by needs. ", 
+      "Updated the third library and using the bridge mode to quarantine the third-party libraries effect like updated momentJs to dayJs." 
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Project Assistant",
+    company_name: "Zijin mining",
+    icon: zijin,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Aug 2022 - Jun 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Assess the actual value of the project and coordinate experts to carry out post-project evaluation tasks, encompassing truck dispatch system, CRM system, BPM system, etc.", 
+      "Reevaluate the IT requirements and determine their feasibility and actual value.",
+      "Conduct research on emerging technologies, including the implementation progress of advanced solutions such as autonomous mining trucks, hyper-converged networks, and SD-WAN networks.",
+      "Organize collaborations with other major enterprises, including the establishment of a strategic cooperation framework agreement with China Mobile."
     ],
   },
 ];
