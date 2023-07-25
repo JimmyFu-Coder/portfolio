@@ -193,7 +193,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Jira Clone",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
@@ -209,12 +209,16 @@ const projects = [
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "JWT",
+        color: "black-text-gradient"
+      }
     ],
     image: carrent,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Trip Guide",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
@@ -223,11 +227,11 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "restful",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: ".net",
         color: "pink-text-gradient",
       },
     ],
