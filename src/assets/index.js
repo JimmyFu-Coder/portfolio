@@ -20,7 +20,8 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import net from "./tech/net.png";
-import python from "./tech/python.png"
+import python from "./tech/python.png";
+import django from "./tech/django.jpg"
 
 import uwa from './company/uwa.png'
 import shanbay from './company/shanbay.png'
@@ -59,4 +60,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  django
 };

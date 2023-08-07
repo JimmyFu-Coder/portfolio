@@ -18,7 +18,7 @@ import {
   carrent,
   jobit,
   tripguide,
-  net,
+  django,
   shanbay,
   zijin,
   python,
@@ -97,8 +97,8 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: ".net",
-    icon: net,
+    name: "django",
+    icon: django,
   },
   {
     name: "git",
@@ -231,7 +231,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: ".net",
+        name: "Django",
         color: "pink-text-gradient",
       },
     ],
